@@ -1,27 +1,17 @@
 name: "trivy_plugin_epss"
 repository: github.com/AFRAID-rocks/trivy-plugin-epss
-version: "0.0.1"
+version: "0.0.2"
 output: true
 usage: Calculate EPSS scores for vulnerabilities
 description: A Trivy plugin that adds EPSS scores to vulnerability reports
 platforms:
   - selector:
-      os: darwin
-      arch: amd64
-    bin: ./epss
-    uri: ./epss
-  - selector:
-      os: darwin
-      arch: arm64
-    bin: ./epss
-    uri: ./epss
-  - selector:
       os: linux
       arch: amd64
-    bin: ./epss
-    uri: ./epss
+    bin: ./epss-plugin
+    uri: ./epss-plugin
   - selector:
       os: linux
       arch: arm64
-    bin: ./epss
-    uri: ./epss
+    bin: ./epss-plugin
+    uri: ./epss-plugin
