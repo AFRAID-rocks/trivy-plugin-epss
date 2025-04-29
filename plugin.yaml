@@ -1,6 +1,6 @@
 name: "trivy_plugin_epss"
 repository: github.com/AFRAID-rocks/trivy-plugin-epss
-version: "0.1.0"
+version: "0.0.1"
 output: true
 usage: Calculate EPSS scores for vulnerabilities
 description: A Trivy plugin that adds EPSS scores to vulnerability reports
