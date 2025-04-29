@@ -8,10 +8,5 @@ platforms:
   - selector:
       os: linux
       arch: amd64
-    bin: ./epss-plugin
-    uri: ./epss-plugin
-  - selector:
-      os: linux
-      arch: arm64
-    bin: ./epss-plugin
-    uri: ./epss-plugin
+    bin: ./epss
+    uri: ./epss
