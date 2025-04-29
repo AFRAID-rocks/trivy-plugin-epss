@@ -8,20 +8,20 @@ platforms:
   - selector:
       os: darwin
       arch: amd64
-    bin: ./epss
-    uri: ./epss
+    bin: ./epss-plugin
+    uri: ./epss-plugin
   - selector:
       os: darwin
       arch: arm64
-    bin: ./epss
-    uri: ./epss
+    bin: ./epss-plugin
+    uri: ./epss-plugin
   - selector:
       os: linux
       arch: amd64
-    bin: ./epss
-    uri: ./epss
+    bin: ./epss-plugin
+    uri: ./epss-plugin
   - selector:
       os: linux
       arch: arm64
-    bin: ./epss
-    uri: ./epss
+    bin: ./epss-plugin
+    uri: ./epss-plugin
